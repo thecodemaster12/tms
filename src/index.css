@@ -2,7 +2,18 @@
 
 @theme {
     --color-primary: #4F46E5;
-    --color-secondary: #0F172A;
     --color-tertiary: #A54100;
     --color-neutral: #777681;
+    --color-dark: #0F172A;
+    --color-light: #f6f8f9;
+    --color-success: #10B981;
+    --color-error: #EF4444;
+}
+
+.auth-wrapper {
+    @apply min-w-1/4 rounded-md space-y-8 bg-light text-black px-12 py-20;
+}
+
+.input-label {
+    @apply block text-sm font-medium text-gray-500;
 }
